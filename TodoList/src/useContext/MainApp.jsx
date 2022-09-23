@@ -15,9 +15,9 @@ export const MainApp = () => {
         
 
         <Routes>
-            <Route path="/" element={ <HomePage/> }/>
-            <Route path="about" element={ <AboutPage/> }/>
+            <Route path="/" element={ <LoginPage/> }/>
             <Route path="login" element={ <LoginPage/> }/>
+            <Route path="about" element={ <AboutPage/> }/>
             <Route path="todoapp" element={ <TodoApp/> }/>
 
             <Route path="/*" element={<Navigate to="/about"/>}/>
